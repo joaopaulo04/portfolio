@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+
+html {
+    font-size: 62.5%;
+    color: var(--cor-branca);
+    font-weight: 300;
+    scroll-behavior: smooth;
+
+  }
+  
+  body {
+    background: linear-gradient(90deg, #0a0a0a 20%, #001f3f 70%, #00a8cc 160%);
+    font-family: var(--fonte-primaria);
+    font-size: var(--fonte-normal);
+
+  }
+
+  .container {
+    max-width: 1140px;
+    margin: auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .justify-content-between {
+    justify-content: space-between;
+  }
+  
+  .alinhar-itens-no-centro {
+    align-items: center;
+  }
+
+  .redes-sociais a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 2.3rem;
+    text-align: center;
+    color: var(--cor-branca);
+    margin: 0 5px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+  
+  .redes-sociais a i {
+    line-height: 50px;
+  }
+  
+  .redes-sociais a:hover {
+    color: var(--cor-primaria);
+  }
+
+  .outer-shadow {
+    box-shadow: 3px 3px #1e3a5f, -3px -3px 3px #007ba7;
+  }
+  
+
+  /* .inner-shadow {
+    box-shadow: inset 3px 3px 3px #2a4b73, inset -3px -3px 3px #0099cc;
+  } */
+  
+  .section{
+    padding: 7rem 0 7rem;
+  }
+  
+  .section-title {
+    text-align: center;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 30px 0;
+  }
+  
+  .section-title h2 {
+    font-size: var(--fonte-gigante);
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .botao {
+    font-size: var(--fonte-grande);
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all .3s ease;
+    background-color: var(--cor-primaria);
+  }
+
+  .botao:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branca);
+  }
+
+  .botao-cv {
+    font-size: var(--fonte-grande);
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all .3s ease;
+    background-color: #001f3f;
+  }
+
+  .botao-cv:hover {
+    background-color: #00a8cc; /* Ciano */
+    color: #ffffff; /* Branco */
+  }
+  

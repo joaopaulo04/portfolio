@@ -1,0 +1,81 @@
+/* HABILIDADES */
+.habilidades .container-habilidades {    
+    text-align: center;    
+    display: flex;
+    justify-content: center;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.habilidades .container-habilidades .informacoes{
+    max-width: 250px;
+    padding: 40px 20px;    
+}
+
+.habilidades .container-habilidades .informacoes p,
+.habilidades .container-habilidades .informacoes h3,
+.habilidades .container-habilidades .informacoes .logo i{
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.habilidades .container-habilidades .informacoes:hover p,
+.habilidades .container-habilidades .informacoes:hover h3{
+    color: #00a8cc;
+}
+
+.habilidades .container-habilidades .informacoes .logo i#html.devicon.devicon-html5-plain-wordmark::before{
+    color: #E34E26;
+}
+
+.habilidades .container-habilidades .informacoes .logo i#css.devicon.devicon-css3-plain-wordmark::before{
+    color: #264DE4;
+}
+
+.habilidades .container-habilidades .informacoes .logo i#git.devicon.devicon-git-plain::before{
+    color: #F05133;
+}
+
+.habilidades .container-habilidades .informacoes .logo i#github.devicon.devicon-github-original::before{
+    color: #9400FF;
+}
+
+.habilidades .container-habilidades .informacoes .logo i#javascript.devicon.devicon-javascript-plain::before{
+    color: #F7E018;
+}
+
+.habilidades .container-habilidades .informacoes h3 {
+    font-size: var(--fonte-extra-grande);
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #f0f0f0;
+    max-width: 250px;
+}
+
+.habilidades .container-habilidades .informacoes p {
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.habilidades .container-habilidades .informacoes .logo i {
+    font-size: 8rem;
+}
+
+.habilidades .container-habilidades .informacoes{
+    /* background-color: #1a1a1a; */
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 514px) {
+    .habilidades .container-habilidades .informacoes{
+        max-width: 350px;
+    }
+
+    .habilidades .container-habilidades .informacoes h3{ 
+        max-width: 350px;
+    }
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>João Paulo</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+  <link rel="shortcut icon" href="src/imagens/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">JP</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>👋 Olá! Meu nome é </p>
+          <h1>João Paulo</h1>
+          <h2>Desenvolvedor Frontend</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/joaopaulocosta04/" class="outer-shadow" target="_blank"><i class="fab fa-linkedin-in" style="color: #0274B3"></i></a>
+            <a href="https://github.com/joaopaulo04" class="outer-shadow" target="_blank"><i class="fab fa-github" style="color: #9400FF"></i></a>
+            <a href="https://wa.me/5511973713213" class="outer-shadow" target="_blank"><i class="fab fa-whatsapp" style="color: #00C307"></i></a>
+            <a href="mailto:joaopaulo.pc27@gmail.com" class="outer-shadow" target="_blank"><i class="fas fa-envelope"></i></a>
+            <!-- <a href="https://www.instagram.com/joaoopc_/?hl=pt-br" class="outer-shadow" target="_blank"><i class="fab fa-instagram"></i></a> -->
+          </div>
+        </div>
+
+        <!-- <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="src/imagens/perfil2.png" alt="foto do perfil do João" />
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">        
+            <div class="informacoes-projeto">  
+              <h3>Agência XYZ</h3>        
+              <p>Projeto feito usando HTML e CSS.</p>
+              <a href="https://joaopaulo04.github.io/grid-landing-page/" target="_blank">🔗 Ver no GitHub Pages</a>
+            </div> 
+            <img src="src/imagens/agenciaxyzmac.png" alt="Nome do projeto" />
+            <img src="src/imagens/agenciaxyz.png" alt="Nome do projeto" id="mobile" />
+        </div>
+
+        <div class="projeto">        
+          <div class="informacoes-projeto">  
+            <h3>GTA V</h3>        
+            <p>Projeto feito usando HTML, CSS e JavaScript</p>
+            <a href="https://joaopaulo04.github.io/projeto-gta/" target="_blank">🔗 Ver no GitHub Pages</a>
+          </div> 
+          <img src="src/imagens/gtamac.png" alt="Nome do projeto" />
+          <img src="src/imagens/gta.png" alt="Nome do projeto" id="mobile" />
+        </div>
+
+        <div class="projeto">        
+          <div class="informacoes-projeto">  
+            <h3>NFT Preview Card</h3>        
+            <p>Projeto feito usando HTML e CSS.</p>
+            <a href="https://joaopaulo04.github.io/nft-preview-card/" target="_blank">🔗 Ver no GitHub Pages</a>
+          </div> 
+          <img src="src/imagens/nftmac.png" alt="Nome do projeto" />
+          <img src="src/imagens/nft.png" alt="Nome do projeto" id="mobile" />
+        </div>
+
+        <div class="projeto">        
+          <div class="informacoes-projeto">  
+            <h3>Portal de Demandas IFSP</h3>        
+            <p>Projeto feito usando HTML, CSS e JavaScript</p>
+            <a href="https://joaopaulo04.github.io/projeto-extensao-ifsp/" target="_blank">🔗 Ver no GitHub Pages</a>
+          </div> 
+          <img src="src/imagens/ifmac.png" alt="Nome do projeto" />
+          <img src="src/imagens/if.png" alt="Nome do projeto" id="mobile" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>HTML5 é a linguagem de marcação utilizada para estruturar e organizar o conteúdo da web. Com ele, crio a base dos sites e aplicações, garantindo uma semântica clara e acessível, essencial para uma boa experiência do usuário.</p>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>CSS3 é a linguagem de estilos que utilizo para transformar o design dos sites, criando layouts responsivos e atraentes. Com animações e efeitos visuais, consigo trazer interatividade e personalidade para cada projeto.</p>
+        </div>
+        
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+          <p>Git é o sistema de controle de versões que utilizo para acompanhar todas as alterações no código. Com ele, garanto que cada mudança seja documentada e que possa reverter para versões anteriores, mantendo o desenvolvimento organizado.</p>
+        </div>
+        
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p>GitHub é a plataforma que uso para versionar e gerenciar meus projetos. Ele permite colaboração em equipe, revisão de código e armazenamento seguro, facilitando o controle e a evolução dos meus códigos.</p>
+        </div>
+
+
+        <!-- <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>JavaScript é a linguagem de programação que traz vida aos meus projetos. Com ela, adiciono interatividade e funcionalidades dinâmicas, tornando as interfaces mais intuitivas e responsivas para os usuários.</p>
+        </div>
+
+        <div class="informacoes react">
+          <div class="logo">           
+            <i class="devicon devicon-react-original colored"></i>  
+          </div>
+          <h3>React</h3>
+          <p>React é uma biblioteca JavaScript que utilizo para criar interfaces de usuário dinâmicas e eficientes. Com sua abordagem baseada em componentes, posso desenvolver aplicações rápidas e escaláveis, proporcionando uma experiência de usuário moderna e interativa.</p>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <!-- <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/perfil2.png" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+      </div> -->
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo João Paulo e sou um desenvolvedor frontend em
+              formação!</strong>
+              Atualmente estou no 4° semestre da faculdade de Análise e Desenvolvimento de Sistemas, tenho uma grande paixão pela área de tecnologia e estou sempre pronto para contribuir com minhas habilidades em qualquer equipe.
+          </p>
+
+          <p>
+            Estou constantemente me desafiando com novos projetos e participando ativamente de comunidades de programação, onde busco feedback de outros desenvolvedores e compartilho o que aprendi para ajudar outros. Atualmente, estou em busca de uma vaga de estágio para aplicar meus conhecimentos e continuar desenvolvendo minhas habilidades.
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="/src/arquivos/cv.pdf" class="botao-cv outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/joaopaulocosta04/" class="outer-shadow-footer" target="_blank"><i class="fab fa-linkedin-in" style="color: #0274B3"></i></a>
+        <a href="https://github.com/joaopaulo04" class="outer-shadow-footer" target="_blank"><i class="fab fa-github" style="color: #9400FF"></i></a>
+        <a href="https://wa.me/5511973713213" class="outer-shadow-footer" target="_blank"><i class="fab fa-whatsapp" style="color: #00C307"></i></a>
+        <a href="mailto:joaopaulo.pc27@gmail.com" class="outer-shadow" target="_blank"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.instagram.com/joaoopc_/?hl=pt-br" class="outer-shadow-footer" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
