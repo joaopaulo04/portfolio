@@ -18,7 +18,6 @@
 .sobre-mim .imagem-sobre-mim img {
     border: 10px solid transparent;
     border-radius: 50%;
-    /* border-radius: 5px; */
 }
 
 .sobre-mim .informacoes-sobre-mim {    
@@ -50,7 +49,6 @@
     }
 
     .sobre-mim .informacoes-sobre-mim {  
-        /* padding: 0 var(--mobile-padding); */
         text-align: center;
     }
 
